@@ -21,6 +21,42 @@
     animation-delay: 1s;
 }
 
+/*Mobile*/
+@media only screen and (min-width: 896px) {
+    [class*="topbar"]   {
+        letter-spacing: 2px;
+        word-spacing: 80px;
+        font-size: 80%;
+        height: 3%;
+    }
+}
+
+/*Tablets*/
+@media only screen and (min-width: 1366px) {
+    [class*="topbar"]   {
+        letter-spacing: 2px;
+        word-spacing: 115px;
+        font-size: 120%;
+        height: 4%;
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1920px) {
+    [class*="topbar"]   {
+        position: absolute;
+        height: 6%;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        font-size: 180%;
+
+        word-spacing: 130px;
+        letter-spacing: 5px;
+
+    }
+}
+
 .justin {
     position: absolute;
     height: 12%;
@@ -56,10 +92,49 @@ a {
     color:  rgb(255, 255, 255);
     font-size: 150%;
     line-height: 280%;
-    padding: 1em;
+   
 
     animation-delay: 1s;
 }
+
+/*Mobile*/
+@media only screen and (min-width: 896px) {
+    [class*="bottombar"]   {
+        position: absolute;
+        height: 30%;
+        width: 40%;
+        top: 40%;
+        left: 0%;
+        font-size: 100%;
+        padding: 0em;
+    
+    }
+}
+
+/*Tablets*/
+@media only screen and (min-width: 1366px) {
+    [class*="bottombar"]   {  
+        position: absolute;
+        height: 40%;
+        width: 40%;
+        top: 36%;
+        left: 0%;
+        font-size: 120%;
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1920px) {
+    [class*="bottombar"]   {
+        position: absolute;
+        height: 50%;
+        width: 45%;
+        top: 36%;
+        left: 0%;
+        font-size: 150%;
+    }
+}
+
 
 h1.name {
     animation-duration: 2s;

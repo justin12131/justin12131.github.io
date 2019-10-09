@@ -20,6 +20,42 @@
 
 }
 
+/*Mobile*/
+@media only screen and (min-width: 896px) {
+    [class*="topbar"]   {
+        letter-spacing: 2px;
+        word-spacing: 80px;
+        font-size: 80%;
+        height: 3%;
+    }
+}
+
+/*Tablets*/
+@media only screen and (min-width: 1366px) {
+    [class*="topbar"]   {
+        letter-spacing: 2px;
+        word-spacing: 115px;
+        font-size: 120%;
+        height: 4%;
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1920px) {
+    [class*="topbar"]   {
+        position: absolute;
+        height: 6%;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        font-size: 180%;
+
+        word-spacing: 130px;
+        letter-spacing: 5px;
+
+    }
+}
+
 a {
     font-family: cursive;
     text-decoration: none;
@@ -74,6 +110,44 @@ a.references {
     font-size: 95%;
 
 }
+
+/*Mobile*/
+@media only screen and (min-width: 896px) {
+    [class*="info"]   {
+        position: absolute;
+        top: 31%;
+        left: 34%;
+        height: 60%;
+        width: 30%;
+        font-size: 55%;
+    }
+}
+
+/*Tablets*/
+@media only screen and (min-width: 1366px) {
+    [class*="info"]   {
+        position: absolute;
+        top: 42.3%;
+        left: 34%;
+        height: 60%;
+        width: 30%;
+        font-size: 65%;
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1920px) {
+    [class*="info"]   {
+        position: absolute;
+        top: 50%;
+        left: 34%;
+        height: 60%;
+        width: 30%;
+
+        font-size: 95%;
+    }
+}
+
 
 img {
     position: absolute;
