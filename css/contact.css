@@ -1,0 +1,81 @@
+.topbar {
+    position: absolute;
+    height: 6%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgba(77, 50, 151, 0.3);
+    overflow: hidden;
+    white-space: nowrap;
+
+    font-size: 180%;
+    word-spacing: 130px;
+    letter-spacing: 5px;
+    font-family: cursive;
+    text-decoration: none;
+
+}
+
+a {
+    font-family: cursive;
+    text-decoration: none;
+    color:  rgb(127, 255, 212);
+}
+
+a.homepage {
+    word-spacing: 2px;
+    animation-delay: 1s;
+}
+
+a.about {
+    word-spacing: 2px;
+    animation-delay: 1.2s;
+
+}
+
+a.works {
+    animation-delay: 1.4s;
+
+}
+
+a.resume {
+    animation-delay: 1.6s;
+}
+
+a.ci {
+    word-spacing: 2px;
+    animation-delay: 1.8s;
+}
+
+a.references {
+    animation-delay: 2s;
+}
+
+.form {
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    height: 12%;
+    width: 30%;
+
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgba(77, 50, 151, 0.3);
+    overflow: hidden;
+    white-space: nowrap;
+    color: white;
+
+}
+
+.form {
+    text-align: center;
+}
+
+.contactme {
+    color:  rgb(127, 255, 212);
+}
