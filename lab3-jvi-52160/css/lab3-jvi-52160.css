@@ -1,0 +1,156 @@
+#header {
+    position: absolute;
+    top: 1%;
+    left: .5%;
+    width: 29.7%;
+    height: 17.5%;
+    background-color: cornflowerblue;
+    border: black;
+    border-style: solid;
+}
+
+#toprightbox {
+    position: absolute;
+    top: 1%;
+    right: .5%;
+    width: 68.5%;
+    height: 18%;
+    background-color: forestgreen
+}
+
+#leftcolumnup {
+    position: absolute;
+    top: 20%;
+    left: .5%;
+    width: 30%;
+    height: 50%;
+    background-color: forestgreen
+}
+
+#leftcolumndown {
+    position: absolute;
+    top: 71%;
+    left: .5%;
+    width: 30%;
+    height: 50%;
+    background-color: forestgreen
+}
+
+#centerbox {
+    position: absolute;
+    top: 20%;
+    right: .5%;
+    width: 68.5%;
+    height: 60%;
+    background-color: forestgreen
+}
+
+#bottombox {
+    position: absolute;
+    top: 81%;
+    left: 31%;
+    width: 45%;
+    height: 40%;
+    background-color: forestgreen
+}
+
+#bottomrightbox {
+    position: absolute;
+    top: 81%;
+    right: .5%;
+    width: 23%;
+    height: 40%;
+    background-color: forestgreen
+}
+
+.CSIS {
+    text-align: center;
+    color: black;
+}
+
+
+.summary {
+    text-align: center;
+    color: aqua;
+}
+
+.p1 {
+    text-align: center;
+    line-height: 2em;
+}
+
+.learn {
+    text-align: center;
+    color: aqua;
+}
+
+.sellingpoints {
+    text-align: center;
+    color: aqua;
+} 
+
+.p2 {
+    text-align: center;
+    line-height: 2em;
+}
+
+.tlc {
+    text-align: center;
+    color: aqua;
+}
+
+table {
+    position: relative;
+    border: 3px;
+    border-style: solid;
+    height: 70%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    border: 1px;
+    border-style: solid;
+}
+
+.pic1 {
+    object-fit: contain;
+    height: 20%;
+    width: 20%;
+}
+
+.pic2 {
+    object-fit: contain;
+    height: 20%;
+    width: 20%;
+}
+
+.pic3 {
+    object-fit: contain;
+    height: 50%;
+    width: 50%;
+}
+
+.link {
+    text-align: center;
+    color: aqua;
+}
+
+.linking {
+    line-height: 2em;
+}
+
+.ref {
+    line-height: 2em;
+    font-size: .6em;
+}
+
+.references {
+    text-align: center;
+    color: aqua;
+}
+
+body {
+    background-color: yellow;
+}

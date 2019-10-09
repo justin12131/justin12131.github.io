@@ -1,0 +1,84 @@
+.para1 {
+    line-height: 2em;
+}
+
+li {
+    line-height: 2em;
+}
+
+.para1 {
+    border: 2px solid black;
+  }
+
+.pic1 {
+    width: 7%; 
+    height: 7%; 
+    object-fit: contain; 
+}
+
+.pic2 {
+    width: 10%; 
+    height: 10%; 
+    object-fit: contain; 
+}
+
+.pic3 {
+    width: 25%; 
+    height: 15%; 
+    object-fit: contain; 
+
+}
+    
+aside {
+    float: right;
+    margin-left: .60rem;
+    font-style:oblique;
+    color: #F7C118;
+    background-color: black
+}
+
+.CC {
+    color: red
+}
+
+.para2 {
+    line-height: 2em;
+}
+
+.para2 {
+    border: 2px solid black;
+}
+
+.pblue {
+    color:black;
+    background-color: powderblue;
+    border-color: black;
+    border-width: 4px;
+    border-style: ridge;
+    padding: 15px
+} 
+
+.pblue {
+    text-align: center
+}
+
+.para3 {
+    border: 2px solid black;
+    padding: 15px;
+}
+
+#pro {
+    color: green
+}
+
+#con {
+    color: red
+}
+
+.gray {
+    color:black;
+    background-color: gray;
+    border-color: black;
+    border-width: 2px;
+    border-style: ridge;
+}
